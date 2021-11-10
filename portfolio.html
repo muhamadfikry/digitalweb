@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>DigitalWeb | kalkulator</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.color.js"></script>
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function () {
+    $('div.port').hover(
+    function () {
+        $(this).stop().animate({
+            backgroundColor: "#f5f5f5"
+        }, 300);
+    }, function () {
+        $(this).stop().animate({
+            backgroundColor: "#fff"
+        }, 300);
+    });
+});
+</script>
+</head>
+<body>
+<div class="main">
+  <div class="header_resize">
+    <div class="header">
+      <div class="logo"><a href="#"><img src="LOGOMF.jpg" width="80" height="80" border="0" alt="" /></a></div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="services.html">Tentang  </a></li>
+          <li><a href="portfolio.html"class="active">Kalkulator</a></li>
+          <li><a href="contact.html">Kontak saya</a></li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="header_blog">
+    <div class="header_blog_resize"< alt="" width="192" height="44" border="0" /></a>
+      <h2>Kalkulator</h2>
+    </div>
+    <div class="clr"></div>
+  </div>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="kalkulator.css" rel="stylesheet">
+    <title>Aplikasi Kalkulator Simple</title>
+</head>
+<body>
+    <div id="container">
+        <div id="calculator">
+            <div id="result">
+                <div id="history">
+                    <p id="history-value"></p>
+                </div>
+                <div id="output">
+                    <p id="output-values"></p>
+                </div>
+            </div>
+            <div id="keyboard">
+                <button class="operator" id="clear">C</button>
+                <button class="operator" id="backspace">CE</button>
+                <button class="operator" id="%">%</button>
+                <button class="operator" id="/">&#247;</button>
+                <button class="number" id="7">7</button>
+                <button class="number" id="8">8</button>
+                <button class="number" id="9">9</button>
+                <button class="operator" id="*">&times;</button>
+                <button class="number" id="4">4</button>
+                <button class="number" id="5">5</button>
+                <button class="number" id="6">6</button>
+                <button class="operator" id="-">-</button>
+                <button class="number" id="1">1</button>
+                <button class="number" id="2">2</button>
+                <button class="number" id="3">3</button>
+                <button class="operator" id="+">+</button>
+                <button class="empty" id="empty"></button>
+                <button class="number" id="0">0</button>
+                <button class="empty" id="empty"></button>
+                <button class="operator" id="=">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="kalkulator.js"></script>
+    <hr>
+    <head>
+      <meta charset='utf-8'>
+      <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+      <title>to do List</title>
+      <meta name='viewport' content='width=device-width, initial-scale=1'>
+      <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+      <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="todolist.css">
+      <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+  </head>
+  <body>
+      <h1><span class="title">to do </span>List</h1>
+      <div class="inputDiv">
+             <input type="text" class="input" placeholder="Apa yang ingin kamu lakukan...?">
+             <button class="add"><i class="fas fa-plus"></i></button>
+      </div>
+      <div class="container">
+      </div>
+      <script src='todolist.js'></script>
+</body>
+</html>
